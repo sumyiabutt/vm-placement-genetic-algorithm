@@ -1,0 +1,863 @@
+{
+ "small": [
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 343.44433026829563,
+    "active_pms": 66,
+    "sla_violation_pct": 11.11111111111111,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 9,
+    "gens": 0,
+    "seconds": 0.014884865999995611,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 364.64528993863183,
+    "active_pms": 71,
+    "sla_violation_pct": 6.103286384976526,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.014801896999998121,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 343.44433026829563,
+    "active_pms": 66,
+    "sla_violation_pct": 11.11111111111111,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 9,
+    "gens": 51,
+    "seconds": 0.6736346309999988,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 343.44433026829563,
+    "active_pms": 66,
+    "sla_violation_pct": 11.11111111111111,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 9,
+    "gens": 51,
+    "seconds": 0.5828491930000013,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 352.94381908270987,
+    "active_pms": 68,
+    "sla_violation_pct": 7.8431372549019605,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.7202177699999979,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 368.71012672080656,
+    "active_pms": 71,
+    "sla_violation_pct": 5.633802816901409,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 9,
+    "gens": 0,
+    "seconds": 0.01463140999999979,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 391.15365468451745,
+    "active_pms": 76,
+    "sla_violation_pct": 4.714912280701754,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.015774016000001723,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 368.71012672080656,
+    "active_pms": 71,
+    "sla_violation_pct": 5.633802816901409,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 9,
+    "gens": 51,
+    "seconds": 0.5357184109999977,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 368.71012672080656,
+    "active_pms": 71,
+    "sla_violation_pct": 5.633802816901409,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 9,
+    "gens": 51,
+    "seconds": 0.4992877930000006,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 374.2609025430752,
+    "active_pms": 72,
+    "sla_violation_pct": 4.861111111111112,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.674629865,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 343.68864753435764,
+    "active_pms": 66,
+    "sla_violation_pct": 7.954545454545454,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 11,
+    "gens": 0,
+    "seconds": 0.022375519000000565,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 373.96977635018294,
+    "active_pms": 73,
+    "sla_violation_pct": 5.47945205479452,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.025390229999999292,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 343.68864753435764,
+    "active_pms": 66,
+    "sla_violation_pct": 7.954545454545454,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 11,
+    "gens": 51,
+    "seconds": 0.8645764939999978,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 343.68864753435764,
+    "active_pms": 66,
+    "sla_violation_pct": 7.954545454545454,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 11,
+    "gens": 51,
+    "seconds": 0.7632001710000011,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 357.84706410023216,
+    "active_pms": 69,
+    "sla_violation_pct": 5.314009661835748,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.6151827300000008,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 359.11571799551865,
+    "active_pms": 69,
+    "sla_violation_pct": 9.057971014492754,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 16,
+    "gens": 0,
+    "seconds": 0.025384852000001956,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 381.04737861506476,
+    "active_pms": 74,
+    "sla_violation_pct": 6.081081081081082,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.02845783600000118,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 359.11571799551865,
+    "active_pms": 69,
+    "sla_violation_pct": 9.057971014492754,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 16,
+    "gens": 51,
+    "seconds": 0.7537681519999992,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 359.11571799551865,
+    "active_pms": 69,
+    "sla_violation_pct": 9.057971014492754,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 16,
+    "gens": 51,
+    "seconds": 0.7457840619999985,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 364.15783648222947,
+    "active_pms": 70,
+    "sla_violation_pct": 8.214285714285714,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.7943264479999996,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 369.0219348127882,
+    "active_pms": 71,
+    "sla_violation_pct": 8.333333333333332,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 13,
+    "gens": 0,
+    "seconds": 0.014314788000000078,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 386.8962528251865,
+    "active_pms": 75,
+    "sla_violation_pct": 8.777777777777777,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.016197730000001798,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 369.0219348127882,
+    "active_pms": 71,
+    "sla_violation_pct": 8.333333333333332,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 13,
+    "gens": 51,
+    "seconds": 0.606327579000002,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 369.0219348127882,
+    "active_pms": 71,
+    "sla_violation_pct": 8.333333333333332,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 13,
+    "gens": 51,
+    "seconds": 0.8257864609999999,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 378.3905814657251,
+    "active_pms": 73,
+    "sla_violation_pct": 7.191780821917808,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.7588429970000021,
+    "fitness_calls": 3328
+   }
+  ]
+ ],
+ "medium": [
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 572.8589886457588,
+    "active_pms": 110,
+    "sla_violation_pct": 6.893939393939394,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 18,
+    "gens": 0,
+    "seconds": 0.03740088899999705,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 608.4053040883733,
+    "active_pms": 118,
+    "sla_violation_pct": 7.4858757062146895,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.04194803200000763,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 572.8589886457588,
+    "active_pms": 110,
+    "sla_violation_pct": 6.893939393939394,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 18,
+    "gens": 51,
+    "seconds": 0.7680731490000028,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 572.8589886457588,
+    "active_pms": 110,
+    "sla_violation_pct": 6.893939393939394,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 18,
+    "gens": 51,
+    "seconds": 0.9145390520000092,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 592.2484688403728,
+    "active_pms": 114,
+    "sla_violation_pct": 7.383040935672515,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.904429021999988,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 609.1233152097718,
+    "active_pms": 117,
+    "sla_violation_pct": 7.264957264957266,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 18,
+    "gens": 0,
+    "seconds": 0.05430062400000679,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 644.5525777200784,
+    "active_pms": 125,
+    "sla_violation_pct": 6.133333333333333,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.07556600099999855,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 609.1233152097718,
+    "active_pms": 117,
+    "sla_violation_pct": 7.264957264957266,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 18,
+    "gens": 51,
+    "seconds": 0.7531748090000008,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 609.1233152097718,
+    "active_pms": 117,
+    "sla_violation_pct": 7.264957264957266,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 18,
+    "gens": 51,
+    "seconds": 0.7842418359999925,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 623.5839181884171,
+    "active_pms": 120,
+    "sla_violation_pct": 5.625,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.9157395760000071,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 578.059165063076,
+    "active_pms": 111,
+    "sla_violation_pct": 7.132132132132132,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 22,
+    "gens": 0,
+    "seconds": 0.036637549000005265,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 622.350912537256,
+    "active_pms": 121,
+    "sla_violation_pct": 7.300275482093664,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.04729180700000768,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 578.059165063076,
+    "active_pms": 111,
+    "sla_violation_pct": 7.132132132132132,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 22,
+    "gens": 51,
+    "seconds": 0.9115161470000004,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 578.059165063076,
+    "active_pms": 111,
+    "sla_violation_pct": 7.132132132132132,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 22,
+    "gens": 51,
+    "seconds": 0.8337954219999943,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 602.0210349510087,
+    "active_pms": 116,
+    "sla_violation_pct": 8.764367816091955,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.7228423600000013,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 604.0114547860773,
+    "active_pms": 116,
+    "sla_violation_pct": 7.327586206896551,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 22,
+    "gens": 0,
+    "seconds": 0.0372447080000029,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 643.5887465384875,
+    "active_pms": 125,
+    "sla_violation_pct": 7.6,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.037969084000010866,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 604.0114547860773,
+    "active_pms": 116,
+    "sla_violation_pct": 7.327586206896551,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 22,
+    "gens": 51,
+    "seconds": 0.7144802560000016,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 604.0114547860773,
+    "active_pms": 116,
+    "sla_violation_pct": 7.327586206896551,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 22,
+    "gens": 51,
+    "seconds": 0.927704398000003,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 618.5677097722868,
+    "active_pms": 119,
+    "sla_violation_pct": 7.282913165266107,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.7799645250000111,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 603.0221056554814,
+    "active_pms": 116,
+    "sla_violation_pct": 7.112068965517242,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 19,
+    "gens": 0,
+    "seconds": 0.0374144350000023,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 634.3632062938684,
+    "active_pms": 123,
+    "sla_violation_pct": 7.520325203252034,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.0424333609999934,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 603.0221056554814,
+    "active_pms": 116,
+    "sla_violation_pct": 7.112068965517242,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 19,
+    "gens": 51,
+    "seconds": 0.7555447270000002,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 603.0221056554814,
+    "active_pms": 116,
+    "sla_violation_pct": 7.112068965517242,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 19,
+    "gens": 51,
+    "seconds": 0.7745838640000073,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 618.4915429905038,
+    "active_pms": 119,
+    "sla_violation_pct": 6.932773109243698,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 0.8737763800000096,
+    "fitness_calls": 3328
+   }
+  ]
+ ],
+ "large": [
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 1400.7218635681222,
+    "active_pms": 269,
+    "sla_violation_pct": 7.8686493184634445,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 58,
+    "gens": 0,
+    "seconds": 0.2787129529999959,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 1501.2811685543315,
+    "active_pms": 291,
+    "sla_violation_pct": 8.304696449026345,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 1,
+    "gens": 0,
+    "seconds": 0.24483879099999228,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 1400.7218635681222,
+    "active_pms": 269,
+    "sla_violation_pct": 7.8686493184634445,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 58,
+    "gens": 51,
+    "seconds": 1.2938984670000053,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 1400.7218635681222,
+    "active_pms": 269,
+    "sla_violation_pct": 7.8686493184634445,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 58,
+    "gens": 51,
+    "seconds": 1.2146458240000015,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 1453.8538564160872,
+    "active_pms": 280,
+    "sla_violation_pct": 7.648809523809525,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 1.4487561070000083,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 1467.8798104013233,
+    "active_pms": 282,
+    "sla_violation_pct": 7.919621749408984,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 47,
+    "gens": 0,
+    "seconds": 0.2378777939999992,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 1562.5584577104778,
+    "active_pms": 303,
+    "sla_violation_pct": 8.003300330033003,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.26846447900000214,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 1467.8798104013233,
+    "active_pms": 282,
+    "sla_violation_pct": 7.919621749408984,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 47,
+    "gens": 51,
+    "seconds": 1.2965637219999877,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 1467.8798104013233,
+    "active_pms": 282,
+    "sla_violation_pct": 7.919621749408984,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 47,
+    "gens": 51,
+    "seconds": 1.408659869999994,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 1516.4745354526033,
+    "active_pms": 292,
+    "sla_violation_pct": 7.277397260273973,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 1.8397024869999967,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 1364.4554608465662,
+    "active_pms": 262,
+    "sla_violation_pct": 8.015267175572518,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 54,
+    "gens": 0,
+    "seconds": 0.3520458719999908,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 1472.5290116778258,
+    "active_pms": 286,
+    "sla_violation_pct": 9.032634032634032,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.39984787500000607,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 1364.4554608465662,
+    "active_pms": 262,
+    "sla_violation_pct": 8.015267175572518,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 54,
+    "gens": 51,
+    "seconds": 1.9390043100000014,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 1364.4554608465662,
+    "active_pms": 262,
+    "sla_violation_pct": 8.015267175572518,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 54,
+    "gens": 51,
+    "seconds": 1.5772625399999924,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 1421.7564749797743,
+    "active_pms": 274,
+    "sla_violation_pct": 9.641119221411191,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 1.3328078529999914,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 1441.900755804276,
+    "active_pms": 277,
+    "sla_violation_pct": 8.513838748495788,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 49,
+    "gens": 0,
+    "seconds": 0.20525037900000598,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 1560.3112509048628,
+    "active_pms": 303,
+    "sla_violation_pct": 7.15071507150715,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 0,
+    "seconds": 0.2345933420000108,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 1441.900755804276,
+    "active_pms": 277,
+    "sla_violation_pct": 8.513838748495788,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 49,
+    "gens": 51,
+    "seconds": 1.165818425999987,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 1441.900755804276,
+    "active_pms": 277,
+    "sla_violation_pct": 8.513838748495788,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 49,
+    "gens": 51,
+    "seconds": 1.1636396019999893,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 1495.4649917617648,
+    "active_pms": 288,
+    "sla_violation_pct": 7.4363425925925934,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 1.421645017000003,
+    "fitness_calls": 3328
+   }
+  ],
+  [
+   {
+    "method": "FFD (CPU)",
+    "energy_kwh": 1406.0692622014055,
+    "active_pms": 270,
+    "sla_violation_pct": 7.962962962962964,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 44,
+    "gens": 0,
+    "seconds": 0.20378960700000448,
+    "fitness_calls": 0
+   },
+   {
+    "method": "FFD 2D (CPU+Mem)",
+    "energy_kwh": 1496.486506209551,
+    "active_pms": 290,
+    "sla_violation_pct": 7.672413793103448,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 1,
+    "gens": 0,
+    "seconds": 0.2303084029999809,
+    "fitness_calls": 0
+   },
+   {
+    "method": "Standard GA (energy fitness)",
+    "energy_kwh": 1406.0692622014055,
+    "active_pms": 270,
+    "sla_violation_pct": 7.962962962962964,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 44,
+    "gens": 51,
+    "seconds": 1.4256784649999759,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Base-paper GA (CPU residual)",
+    "energy_kwh": 1406.0692622014055,
+    "active_pms": 270,
+    "sla_violation_pct": 7.962962962962964,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 44,
+    "gens": 51,
+    "seconds": 1.398094853999993,
+    "fitness_calls": 3328
+   },
+   {
+    "method": "Proposed GA (CPU+Mem residual)",
+    "energy_kwh": 1454.2954046515013,
+    "active_pms": 280,
+    "sla_violation_pct": 8.869047619047619,
+    "cpu_overload_pms": 0,
+    "mem_overload_pms": 0,
+    "gens": 51,
+    "seconds": 1.3709673980000048,
+    "fitness_calls": 3328
+   }
+  ]
+ ]
+}
