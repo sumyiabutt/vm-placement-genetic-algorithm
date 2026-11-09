@@ -1,0 +1,31 @@
+{
+  "title": "Code for: Multiresource Accelerated Genetic Algorithm for Energy Efficient VM Placement in Cloud Data Centers",
+  "upload_type": "software",
+  "description": "Python code, result files and analysis scripts for VM placement experiments (FFD, standard GA, base paper GA and a multiresource residual fitness GA) on samples of the Google cluster usage traces.",
+  "creators": [
+    {
+      "name": "Butt, Sumyia",
+      "affiliation": "University of Central Punjab, Lahore, Pakistan",
+      "orcid": "0009-0009-2595-0102"
+    },
+    {
+      "name": "Hasan, Muhammad Zulkifl",
+      "affiliation": "University of Central Punjab, Lahore, Pakistan",
+      "orcid": "0000-0002-2733-5527"
+    },
+    {
+      "name": "Hussain, Muhammad Zunnurain",
+      "affiliation": "Bahria University Lahore Campus, Lahore, Pakistan",
+      "orcid": "0000-0002-6071-1029"
+    }
+  ],
+  "keywords": [
+    "virtual machine placement",
+    "genetic algorithm",
+    "energy efficiency",
+    "cloud data centre",
+    "SLA violation"
+  ],
+  "access_right": "open",
+  "license": "MIT"
+}
